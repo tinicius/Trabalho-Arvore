@@ -25,7 +25,7 @@ bool isValidChar(char c) {
 }
 
 void readFile(string src, unordered_map<string, int>& freqWordsTable,
-              unordered_map<string, int>& stopWordsTable, string& searchWord) {
+              unordered_map<string, int>& stopWordsTable) {
     ifstream file(src);
 
     if (!file.is_open()) {
@@ -44,7 +44,7 @@ void readFile(string src, unordered_map<string, int>& freqWordsTable,
         } else {
             if (aux == '-' || aux == '/' || aux == '_') continue;
 
-            if (!word.empty() and isValidWord(word) and word != searchWord) {
+            if (!word.empty() and isValidWord(word)) {
                 if (stopWordsTable.find(word) == stopWordsTable.end()) {
                     freqWordsTable[word]++;
                 }
@@ -58,12 +58,12 @@ void readFile(string src, unordered_map<string, int>& freqWordsTable,
 }
 
 void insertElementsOnHeap(Heap& heap, int K,
-                          unordered_map<string, int>& freq_table,
-                          unordered_map<string, int>& stopWordsTable) {
+                          unordered_map<string, int>& freq_table) {
     int counter = 0;
 
     for (auto& w : freq_table) {
-        if (stopWordsTable[w.first] > 0) continue;
+        
+        if(w.second == 0) continue;
 
         if (counter < K) {
             heap.push(w);
@@ -96,17 +96,18 @@ void loadStopWords(unordered_map<string, int>& stopWordsTable) {
     }
 
     file.close();
-}
+};
 
-vector<WordInfo> getTopKElements(int k, string filePath, string searchWord) {
+void insertOnFreqTable(unordered_map<string, int>& freqTable, string& filePath) {
     unordered_map<string, int> stopWordsTable;
     loadStopWords(stopWordsTable);
 
-    unordered_map<string, int> freqTable;
-    readFile(filePath, freqTable, stopWordsTable, searchWord);
+    readFile(filePath, freqTable, stopWordsTable);
+}
 
+vector<WordInfo> getTopKElements(int k, unordered_map<string, int>& freqTable) {
     Heap heap;
-    insertElementsOnHeap(heap, k, freqTable, stopWordsTable);
+    insertElementsOnHeap(heap, k, freqTable);
 
     return heap.getElements();
 }

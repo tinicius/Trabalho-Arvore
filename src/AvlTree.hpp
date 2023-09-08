@@ -1,5 +1,5 @@
-#ifndef BINARY_TREE
-#define BINARY_TREE
+#ifndef AVL_TREE
+#define AVL_TREE
 
 #include <iostream>
 
@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class BinaryTree {
+class AvlTree {
    private:
     Item* root;
     int length;
@@ -16,11 +16,19 @@ class BinaryTree {
     void preOrder(Item* node);
 
    public:
-    BinaryTree();
-    virtual ~BinaryTree();
+    AvlTree();
+    virtual ~AvlTree();
     void push(WordInfo& info);
     // void remove(Item item);
     void showPreOrder();
+
+    int height(Item* node);
+    int balanceFactor(Item* node);
+
+    void rotateLeft(Item** node);
+    void rotateRight(Item** node);
+    void rotateDoubleLeft(Item** node);
+    void rotateDoubleRight(Item** node);
 };
 
 #endif

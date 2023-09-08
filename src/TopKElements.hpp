@@ -14,8 +14,9 @@ using namespace std;
 bool isValidWord(string s);  // Verifica se a palavra não tem algum caracter inválido.
 bool isValidChar(char c);  // Verifica se a palavra é alfanumerica, incluindo acentos.
 
-void insertElementsOnHeap(Heap& heap, int K, unordered_map<string, int>& freq_table, unordered_map<string, int>& stopWordsTable);
+void insertElementsOnHeap(Heap& heap, int K, unordered_map<string, int>& freq_table);
 
-vector<WordInfo> getTopKElements(int k, string filePath, string searchWord);
+vector<WordInfo> getTopKElements(int k, unordered_map<string, int>& freqTable);
+void insertOnFreqTable(unordered_map<string, int>& freqTable, string& filePath);
 
 #endif

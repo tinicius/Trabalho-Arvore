@@ -39,13 +39,3 @@ void BinaryTree::push(WordInfo& info) {
 
 void BinaryTree::showPreOrder() { this->preOrder(root); }
 
-Item::Item(WordInfo& info) {
-    this->value = info;
-    this->left = nullptr;
-    this->right = nullptr;
-}
-
-Item::~Item() {
-    // delete this->left;
-    // delete this->right;
-}
