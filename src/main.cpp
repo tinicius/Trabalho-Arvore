@@ -51,16 +51,19 @@ int main() {
             freqTable[inputWord] = aux;
 
             BinaryTree binaryTree;
-            // AvlTree avlTree;
+            AvlTree avlTree;
 
             for (auto e : elements) {
                 binaryTree.push(e);
-                // avlTree.push(e);
+                avlTree.push(e);
             }
 
             cout << "Palavra: " << inputWord << endl << endl;
 
             binaryTree.showPreOrder();
+            cout << endl;
+
+            avlTree.showPreOrder();
 
             cout << endl;
         }

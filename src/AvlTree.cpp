@@ -10,33 +10,103 @@ AvlTree::AvlTree() {
 
 AvlTree::~AvlTree() {}
 
-int max(int& a, int& b) {
-    if (a >= b)
-        return a;
-    else
-        return b;
+int getHeight(Item *node) {
+    if (node == nullptr) return 0;
+    return node->height;
 }
 
-void AvlTree::rotateLeft(Item** node) {}
+void rightRotate(Item **y) {
+    // Item *x = y->left;
+    // Item *T2 = x->right;
 
-void AvlTree::rotateDoubleLeft(Item** node) {}
+    // x->right = y;
+    // y->left = T2;
 
-void AvlTree::rotateDoubleRight(Item** node) {}
+    // y->height = max(getHeight(y->left), getHeight(y->right)) + 1;
+    // x->height = max(getHeight(x->left), getHeight(x->right)) + 1;
 
-void AvlTree::rotateRight(Item** node) {}
+    Item *aux;
+	aux = (*y)->left;
+	(*y)->left = aux->right;
+	aux->right = (*y);
+	(*y)->height = max(getHeight((*y)->left), getHeight((*y)->right)) + 1;
+	aux->height  = max(getHeight(aux->left), (*y)->height) + 1;
+	(*y) = aux;
+}
 
-void AvlTree::insert(Item* item, Item** node) {
-    if (*node == NULL) {
+void leftRotate(Item **x) {
+    // Item *y = x->right;
+    // Item *T2 = y->left;
+
+    // y->left = x;
+    // x->right = T2;
+
+    // x->height = max(getHeight(x->left), getHeight(x->right)) + 1;
+    // y->height = max(getHeight(y->left), getHeight(y->right)) + 1;
+
+    Item *aux;
+	aux = (*x)->right;
+	(*x)->right = aux->left;
+	aux->left = (*x);
+	(*x)->height = max(getHeight((*x)->left), getHeight((*x)->right)) + 1;
+	aux->height  = max(getHeight(aux->left), (*x)->height) + 1;
+	(*x) = aux;
+}
+
+void AvlTree::insert(Item *item, Item **node) {
+    if (*node == nullptr) {
         *node = item;
-        (*node)->weight = 0;
-    } else if(item->value.frequency < (*node)->value.frequency) {
-        insert(item, &(*node)->left);
-    } else {
+        (*node)->left = nullptr;
+        (*node)->right = nullptr;
+        return;
+    }
+
+    cout << item->value.word << " " << item->value.frequency <<endl;
+    cout << (*node)->value.word << " " << (*node)->value.frequency <<endl;
+
+    int itemFreq = item->value.frequency;
+    int nodeFreq = (*node)->value.frequency;
+
+    if (itemFreq >= nodeFreq)
         insert(item, &(*node)->right);
+    else {
+        insert(item, &(*node)->left);
+    }
+
+    int leftHeight = getHeight((*node)->left);
+
+    int rightHeight = getHeight((*node)->right);
+
+    (*node)->height = max(leftHeight, rightHeight) + 1;
+
+    int balance = leftHeight - rightHeight;
+
+    int leftFreq = 0;
+    if ((*node)->left != nullptr) leftFreq = (*node)->left->value.frequency;
+
+    int rightFreq = 0;
+    if ((*node)->right != nullptr) leftFreq = (*node)->right->value.frequency;
+
+    if (balance > 1 && itemFreq < leftFreq) {
+        rightRotate(&(*node));
+    }
+
+    if (balance < -1 && itemFreq > rightFreq) {
+        leftRotate(&(*node));
+    }
+
+    if (balance > 1 && itemFreq > leftFreq) {
+        leftRotate(&((*node)->left));
+        rightRotate(&(*node));
+    }
+
+    if (balance < -1 && itemFreq < rightFreq) {
+        rightRotate(&((*node)->right));
+        leftRotate(&(*node));
     }
 }
 
-void AvlTree::preOrder(Item* node) {
+void AvlTree::preOrder(Item *node) {
     if (node == nullptr) return;
 
     preOrder(node->left);
@@ -44,12 +114,9 @@ void AvlTree::preOrder(Item* node) {
     preOrder(node->right);
 }
 
-void AvlTree::push(WordInfo& info) {
-    Item* item = new Item(info);
+void AvlTree::push(WordInfo &info) {
+    Item *item = new Item(info);
     insert(item, &root);
 }
 
-void AvlTree::showPreOrder() {
-    cout << this->length << endl;
-    this->preOrder(root);
-}
+void AvlTree::showPreOrder() { this->preOrder(root); }

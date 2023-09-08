@@ -13,7 +13,7 @@ class Item {
     virtual ~Item();
     WordInfo value;
 
-    int weight;
+    int height;
 
     Item* left;
     Item* right;

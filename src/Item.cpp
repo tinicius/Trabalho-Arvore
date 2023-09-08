@@ -2,7 +2,7 @@
 
 Item::Item(WordInfo& info) {
     this->value = info;
-    this->weight = 0;
+    this->height = 0;
     this->left = nullptr;
     this->right = nullptr;
 }
