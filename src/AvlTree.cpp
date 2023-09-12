@@ -1,5 +1,7 @@
 #include "AvlTree.hpp"
 
+#include <queue>
+
 #define dbg(x) cout << #x << " = " << x << endl
 
 AvlTree::AvlTree() {
@@ -26,12 +28,12 @@ void rightRotate(Item **y) {
     // x->height = max(getHeight(x->left), getHeight(x->right)) + 1;
 
     Item *aux;
-	aux = (*y)->left;
-	(*y)->left = aux->right;
-	aux->right = (*y);
-	(*y)->height = max(getHeight((*y)->left), getHeight((*y)->right)) + 1;
-	aux->height  = max(getHeight(aux->left), (*y)->height) + 1;
-	(*y) = aux;
+    aux = (*y)->left;
+    (*y)->left = aux->right;
+    aux->right = (*y);
+    (*y)->height = max(getHeight((*y)->left), getHeight((*y)->right)) + 1;
+    aux->height = max(getHeight(aux->left), (*y)->height) + 1;
+    (*y) = aux;
 }
 
 void leftRotate(Item **x) {
@@ -45,12 +47,12 @@ void leftRotate(Item **x) {
     // y->height = max(getHeight(y->left), getHeight(y->right)) + 1;
 
     Item *aux;
-	aux = (*x)->right;
-	(*x)->right = aux->left;
-	aux->left = (*x);
-	(*x)->height = max(getHeight((*x)->left), getHeight((*x)->right)) + 1;
-	aux->height  = max(getHeight(aux->left), (*x)->height) + 1;
-	(*x) = aux;
+    aux = (*x)->right;
+    (*x)->right = aux->left;
+    aux->left = (*x);
+    (*x)->height = max(getHeight((*x)->left), getHeight((*x)->right)) + 1;
+    aux->height = max(getHeight(aux->left), (*x)->height) + 1;
+    (*x) = aux;
 }
 
 void AvlTree::insert(Item *item, Item **node) {
@@ -61,8 +63,8 @@ void AvlTree::insert(Item *item, Item **node) {
         return;
     }
 
-    cout << item->value.word << " " << item->value.frequency <<endl;
-    cout << (*node)->value.word << " " << (*node)->value.frequency <<endl;
+    cout << item->value.word << " " << item->value.frequency << endl;
+    cout << (*node)->value.word << " " << (*node)->value.frequency << endl;
 
     int itemFreq = item->value.frequency;
     int nodeFreq = (*node)->value.frequency;
@@ -119,4 +121,43 @@ void AvlTree::push(WordInfo &info) {
     insert(item, &root);
 }
 
-void AvlTree::showPreOrder() { this->preOrder(root); }
+void printAVL(Item *rootAVL) {
+    // if (rootAVL != nullptr){
+
+    //   printAVL(rootAVL->leftAVL);
+    //   cout << rootAVL->keyAVL.word << ": " << rootAVL->keyAVL.occurrences <<
+    //   endl; printAVL(rootAVL->rightAVL);
+
+    // }
+    if (rootAVL == nullptr) return;
+
+    int height = 0;
+    queue<Item *> x;
+    x.push(rootAVL);
+
+    while (!x.empty()) {
+        int levelSize = x.size();
+
+        while (levelSize > 0) {
+            Item *current = x.front();
+            x.pop();
+
+            cout << current->value.word << ": " << current->value.frequency
+                 << " ";
+
+            if (current->left != nullptr) x.push(current->left);
+
+            if (current->right != nullptr) x.push(current->right);
+
+            levelSize--;
+        }
+        cout << endl;
+
+        height++;
+    }
+}
+
+void AvlTree::showPreOrder() {
+    this->preOrder(root);
+    printAVL(this->root);
+};

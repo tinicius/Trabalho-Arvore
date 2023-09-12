@@ -66,7 +66,7 @@ void huffman() {
     pq.push({21, HuffmanTree(&info)});
     pq.push({39, HuffmanTree(&info)});
 
-    while (pq.size() > 1) {
+    while (pq.size() > 1) { 
         HuffmanTree min1 = pq.top().second;
         int p1 = pq.top().first;
         min1.root->prob = p1;
@@ -134,7 +134,7 @@ int main() {
 
             cout << "Palavra: " << inputWord << endl << endl;
 
-            binaryTree.showPreOrder();
+            // binaryTree.showPreOrder();
             cout << endl;
 
             avlTree.showPreOrder();
