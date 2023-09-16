@@ -2,6 +2,8 @@
 #define HUFFMAN_TREE
 
 #include <iostream>
+#include <fstream>
+#include <queue>
 
 #include "WordInfo.hpp"
 
@@ -16,19 +18,6 @@ typedef struct Node {
 
 } Node;
 
-class HuffmanTree {
-   private:
-   
-    int length;
-
-    void preOrder(Node* node);
-
-   public:
-    Node* root;
-    HuffmanTree(WordInfo* info);
-    virtual ~HuffmanTree();
-    HuffmanTree insert(Node** min1, Node** min2);
-    void showPreOrder();
-};
+void createHuffmanTree(vector<WordInfo>& elements, ofstream& file);
 
 #endif

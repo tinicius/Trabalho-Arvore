@@ -82,10 +82,10 @@ void insertElementsOnHeap(Heap& heap, int K,
 }
 
 void loadStopWords(unordered_map<string, int>& stopWordsTable) {
-    ifstream file("./dataset/stopwords.data");
+    ifstream file("./dataset/stopwords.txt");
 
     if (!file.is_open()) {
-        cerr << "Erro ao abrir um dos arquivos de entrada!" << std::endl;
+        cerr << "Erro ao abrir o arquivo de stopwords!" << std::endl;
         exit(1);
     }
 

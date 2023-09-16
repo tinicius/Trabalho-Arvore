@@ -1,0 +1,15 @@
+================================================================================================
+Texto: ./textos/filosofia.txt
+
+Palavra: teoria
+
+É 00000 vista 00001 imanente 00010 sentido 00011 segundo 00100 sobre 00101 sistema 00110 pensamento 00111 priori 01000 modo 01001 mundo 01010 condição 01011 sujeito 01100 virtual 011010 assim 011011 pode 011100 quanto 011101 maneira 011110 wittgenstein 011111 a 1 
+virtual 93 assim 94 quanto 95 maneira 95 pode 95 wittgenstein 95 vista 96 É 96 imanente 104 sentido 110 sobre 114 segundo 114 sistema 115 pensamento 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 a 2825 
+virtual 93 assim 94 quanto 95 maneira 95 pode 95 wittgenstein 95 vista 96 É 96 imanente 104 sentido 110 sobre 114 segundo 114 sistema 115 pensamento 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 a 2825 
+
+Palavra: então
+
+vista 00000 imanente 00001 sentido 00010 segundo 00011 sobre 00100 sistema 00101 pensamento 00110 priori 00111 modo 01000 condição 01001 mundo 01010 sujeito 01011 teoria 01100 assim 011010 wittgenstein 011011 pode 011100 maneira 011101 quanto 011110 É 011111 a 1 
+assim 94 pode 95 quanto 95 maneira 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 sobre 114 segundo 114 sistema 115 pensamento 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 a 2825 
+assim 94 pode 95 quanto 95 maneira 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 sobre 114 segundo 114 sistema 115 pensamento 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 a 2825 
+

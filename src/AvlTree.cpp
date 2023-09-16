@@ -4,9 +4,8 @@
 
 #define dbg(x) cout << #x << " = " << x << endl
 
-AvlTree::AvlTree() {
+AvlTree::AvlTree(ofstream& file) : file(file) {
     this->root = nullptr;
-
     length = 0;
 }
 
@@ -63,9 +62,6 @@ void AvlTree::insert(Item *item, Item **node) {
         return;
     }
 
-    cout << item->value.word << " " << item->value.frequency << endl;
-    cout << (*node)->value.word << " " << (*node)->value.frequency << endl;
-
     int itemFreq = item->value.frequency;
     int nodeFreq = (*node)->value.frequency;
 
@@ -112,7 +108,7 @@ void AvlTree::preOrder(Item *node) {
     if (node == nullptr) return;
 
     preOrder(node->left);
-    cout << node->value.word << " " << node->value.frequency << endl;
+    file << node->value.word << " " << node->value.frequency << " ";
     preOrder(node->right);
 }
 
@@ -121,43 +117,6 @@ void AvlTree::push(WordInfo &info) {
     insert(item, &root);
 }
 
-void printAVL(Item *rootAVL) {
-    // if (rootAVL != nullptr){
-
-    //   printAVL(rootAVL->leftAVL);
-    //   cout << rootAVL->keyAVL.word << ": " << rootAVL->keyAVL.occurrences <<
-    //   endl; printAVL(rootAVL->rightAVL);
-
-    // }
-    if (rootAVL == nullptr) return;
-
-    int height = 0;
-    queue<Item *> x;
-    x.push(rootAVL);
-
-    while (!x.empty()) {
-        int levelSize = x.size();
-
-        while (levelSize > 0) {
-            Item *current = x.front();
-            x.pop();
-
-            cout << current->value.word << ": " << current->value.frequency
-                 << " ";
-
-            if (current->left != nullptr) x.push(current->left);
-
-            if (current->right != nullptr) x.push(current->right);
-
-            levelSize--;
-        }
-        cout << endl;
-
-        height++;
-    }
-}
-
 void AvlTree::showPreOrder() {
     this->preOrder(root);
-    printAVL(this->root);
 };

@@ -2,6 +2,7 @@
 #define AVL_TREE
 
 #include <iostream>
+#include <fstream>
 
 #include "Item.hpp"
 #include "WordInfo.hpp"
@@ -15,8 +16,10 @@ class AvlTree {
     void insert(Item* item, Item** node);
     void preOrder(Item* node);
 
+    ofstream& file;
+
    public:
-    AvlTree();
+    AvlTree(ofstream& file);
     virtual ~AvlTree();
     void push(WordInfo& info);
     // void remove(Item item);

@@ -2,6 +2,7 @@
 #define BINARY_TREE
 
 #include <iostream>
+#include <fstream>
 
 #include "Item.hpp"
 #include "WordInfo.hpp"
@@ -15,8 +16,10 @@ class BinaryTree {
     void insert(Item* item, Item** node);
     void preOrder(Item* node);
 
+    ofstream& file;
+
    public:
-    BinaryTree();
+    BinaryTree(ofstream &file);
     virtual ~BinaryTree();
     void push(WordInfo& info);
     // void remove(Item item);

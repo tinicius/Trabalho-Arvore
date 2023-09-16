@@ -1,17 +1,14 @@
 #include "BinaryTree.hpp"
 
-#define dbg(x) cout << #x << " = " << x << endl
-
-BinaryTree::BinaryTree() {
+BinaryTree::BinaryTree(ofstream& file) : file(file) {
     this->root = nullptr;
-
     length = 0;
 }
 
 BinaryTree::~BinaryTree() {}
 
 void BinaryTree::insert(Item* item, Item** node) {
-     if (*node == nullptr) {
+    if (*node == nullptr) {
         *node = item;
         (*node)->left = nullptr;
         (*node)->right = nullptr;
@@ -28,7 +25,7 @@ void BinaryTree::preOrder(Item* node) {
     if (node == nullptr) return;
 
     preOrder(node->left);
-    cout << node->value.word << " " << node->value.frequency << endl;
+    this->file << node->value.word << " " << node->value.frequency << " ";
     preOrder(node->right);
 }
 
@@ -38,4 +35,3 @@ void BinaryTree::push(WordInfo& info) {
 }
 
 void BinaryTree::showPreOrder() { this->preOrder(root); }
-
