@@ -15,17 +15,20 @@ estrutura da árvore binária como base. Além disso iremos discutir 2 possibili
 
 ## Implementação
 
+O programa inicialmente irá buscar todos os textos que serão analisados. Em cada texto é contado a frequencia de todas as palavras, utilizando uma estrutura de hash. Optamos o uso do unordered_map, da biblioteca padrão, devido a confiabilidade em sua implementação. 
+
+Contablizadas as frenquencias percorres as palavras de entrada, essas foram anteriormentes lidas e salvas em um vetor. Para cada palavra criamos uma heap naquela texto, omitindo a palavra atual. O objetivo é conseguir separar as Top K palavras mais frequentes daquele texto.
+
+Tendo as palavras mais frequentes inserimos elas nas estruturas de arvores. Por fim, percorres as arvores exibindo todos os elementos. Para o exibir os nós da árvore optamos por implementar o caminhamento em in-ordem. Esse processo consiste em exibir toda a subarvore esquerda de um nó, o valor do próprio nó e a subarvore direita, estritamente nessa ordem. Ao fim, teremos todos os valores em ordem crescente.
+
 Para construção do programa foi implementado as seguintes estruturas:
 
-### 1. Árvore Binária Padrão
+### Árvore Binária Padrão
 Uma Árvore Binária é uma estrutura de dados hierárquica que consiste em nós, onde cada nó tem no máximo dois filhos. Além disso todos os nós na subarvore esquerda são menor que o nó pai, de maneira análoga todo os nós da subarvore a direita são maiores que o pai. Esse propriedade da árvore binária é a base para duas aplicações principais, ordenação e busca binária.
 
 O processo de inserção escolhido consiste em buscar em percorrer a árvore recursivamente, indo para a esquerda caso o item seja menor que o nó atual e direita caso o contrário, esse processo terminal a encontrar um nó vazio.
 
-Para o exibir os nós da árvore optamos por implementar o caminhamento em in-ordem. Esse processo consiste em exibir toda a subarvore esquerda de um nó, o valor do próprio nó e a subarvore direita, estritamente nessa ordem. Ao fim, teremos todos os valores em ordem crescente.
-
-
-### 2. Codificação de Huffman
+### Codificação de Huffman
 A implementação da codificação de Huffman se baseia na construção de uma Árvore de Huffman, onde os símbolos mais frequentes em um conjunto de dados são representados por caminhos mais curtos na árvore, enquanto os símbolos menos frequentes têm caminhos mais longos. 
 
 Na implementação, começamos criando uma árvore binária onde cada nó representa um símbolo e sua frequência de ocorrência. Os nós são organizados em uma fila de prioridade onde os nós com menor frequência têm prioridade, esse trabalho optamos por utlizar a estrutura priority_queue para gerenciar nossa fila.
@@ -34,7 +37,7 @@ O proximo passo para a construção da Árvore de Huffman envolve a fusão de n�
 
 Para buscar os códigos na ávore percorremos a árvore atribuindo códigos binários aos símbolos com base nos caminhos da raiz até as folhas. Sempre que caminhamo a esquerda adicionamos o digito 0 e ao ir para direito o digito 1.
 
-### 3. Árvore AVL
+### Árvore AVL
 Uma Árvore AVL é uma estrutura de dados em forma de árvore binária que mantém um equilíbrio automático, garantindo que a altura da subárvore esquerda e direita de qualquer nó não difira em mais do que 1 nível. 
 
 A implementação de uma Árvore AVL requer que cada nó contenha informações sobre seu fator de equilíbrio, que é a diferença entre a altura da subárvore direita e esquerda. Na nossa implementação nomeados essa propriedade de altura.
@@ -53,9 +56,33 @@ Existem quatro tipos principais de rotações em uma Árvore AVL.
 
 ## Resultados
 
+A **árvore binária** não garante nenhum tipo de equilíbrio, o que significa que, no pior caso, pode degenerar em uma lista ligada, levando as operações de busca, inserção e exclusão a terem complexidade $O(n)$. 
+
+A **árvore AVL** garante um balanciamento, onde a diferença entre as alturas das subárvores esquerda e direita de cada nó é mantida em no máximo 1. Isso garantes uma eficiencia mais nas operacoes de buscar, inserção e remoção, na classe de complexidade $O(log n)$. Porém, para se manter balanceada a AVL precisa armazenar seu fator de balanceamento, oque gera mais uso de memoria. Além disso as operações de rotação também iram gerar uma complexidade extra a estrutura.
+
+Já a **codificação de Huffman** tem como finalidade a compressão de dados, ou seja, representar informações minimizando o número de bits necessários para representar os dados. A criação da arvore de huffman é bastante custosa devido as estruturas que são necessárias, como utilizamos uma heap a construção terá seu custo na classe $O(n log n)$. Para codificar as palavras temos que percorrer toda a arvore gerando um código de custo $O(n)$.
+
 ### Saída
 
+O output do programa irá exibir para cada texto, e para cada palavra, 3 listas representas a saida de cada uma das estruturas. Abaixo segue um exemplo.
+
+```
+================================================================================================
+Texto: ./textos/globalizacao.txt
+
+Palavra: processo
+
+sistema 0000 formas 0001 melhoria 0010 É 0011 pode 0100 quadros 0101 impacto 0110 informações 0111 necessidade 1000 estabelecimento 1001 assim 1010 sentido 1011 sobre 11000 condições 11001 expansão 11010 atual 11011 importante 11100 modo 11101 podemos 11110 importância 11111 
+sobre 133 importante 133 atual 133 condições 133 expansão 133 podemos 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 impacto 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 sentido 200 
+sobre 133 importante 133 atual 133 condições 133 expansão 133 podemos 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 impacto 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 sentido 200 
+
+================================================================================================
+
+```
+
 ## Conclusão
+
+Podemos concluir com esse trabalho que a implementação de uma árvore binária oferece simplicidade, mas não garante um desempenho eficiente em todas as situações. Pode ser adequada para pequenos conjuntos de dados, mas sua complexidade pode se tornar problemática em conjuntos maiores. A árvore AVL, por outro lado, oferece uma estrutura balanceada que garante uma eficiência mais previsível em operações de busca, inserção e remoção. Embora tenha um custo computacional ligeiramente maior, e um custo de armazenamento adicional, devido às rotações necessárias para manter o equilíbrio o que a torna mais adequada para conjuntos de dados maiores. A codificação de Huffman se concentra na compressão de dados, o que a torna valiosa em cenários onde economia de espaço é fundamental. No entanto, sua criação é custosa, mas a eficiência na redução de tamanho de dados compensa esse custo na transmissão e armazenamento de dados.
 
 ## COMPILAÇÃO E EXECUÇÃO
 O algoritmo disponibilizado inclui um arquivo Makefile que facilita o processo de compilação e execução. Abaixo estão as diretrizes para compilar e executar o programa:
