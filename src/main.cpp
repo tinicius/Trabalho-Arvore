@@ -29,6 +29,8 @@ vector<string> getInputWords() {
 }
 
 void run(int K) {
+
+    double time = 0;
     vector<string> inputWords = getInputWords();
 
     ofstream file("./output.txt");
@@ -57,6 +59,10 @@ void run(int K) {
 
             freqTable[inputWord] = aux;
 
+            clock_t startExe, endExe;
+            double execution_time;
+            startExe = clock();
+
             BinaryTree binaryTree(file);
             // AvlTree avlTree(file);
 
@@ -75,6 +81,10 @@ void run(int K) {
             binaryTree.showPreOrder();
             file << endl;
 
+            endExe = clock();
+            execution_time = ((double)(endExe - startExe)) / CLOCKS_PER_SEC;
+
+            time += execution_time;
             // file << "AVL: ";
             // avlTree.showPreOrder();
             // file << endl;
@@ -83,23 +93,15 @@ void run(int K) {
         }
     }
 
+    cout << K << " " << time << endl;
+
     file.close();
 }
 
 int main() {
-    for (int i = 0; i < 5; i+=1) {
-        clock_t startExe, endExe;
-        double execution_time;
-
-        startExe = clock();
-
-        run(1000);
-
-        endExe = clock();
-        execution_time = ((double)(endExe - startExe)) / CLOCKS_PER_SEC;
-
-        cout << i << " " << execution_time * 1000 << endl;
-    }
+    for (int i = 100; i < 10000; i += 50) {
+        run(i);
+    } 
 
     return 0;
 }
