@@ -87,13 +87,13 @@ void run(int K) {
 }
 
 int main() {
-    for (int i = 1; i < 1000; i+=10) {
+    for (int i = 0; i < 1; i+=10) {
         clock_t startExe, endExe;
         double execution_time;
 
         startExe = clock();
 
-        run(i);
+        run(1000);
 
         endExe = clock();
         execution_time = ((double)(endExe - startExe)) / CLOCKS_PER_SEC;
