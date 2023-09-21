@@ -45,6 +45,8 @@ void leftRotate(Item **x) {
     // x->height = max(getHeight(x->left), getHeight(x->right)) + 1;
     // y->height = max(getHeight(y->left), getHeight(y->right)) + 1;
 
+    if((*x)->right == nullptr) return;
+
     Item *aux;
     aux = (*x)->right;
     (*x)->right = aux->left;
