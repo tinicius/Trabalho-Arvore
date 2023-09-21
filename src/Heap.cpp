@@ -21,22 +21,28 @@ void Heap::pop() {
 }
 
 void Heap::heapify_down(int index) {
+    if (index >= size()) return;
+
     int left = (2 * index) + 1;
     int right = (2 * index) + 2;
 
     int smallerIndex = index;
-
-    int childLeftFreq = array[left].second;
-    int childRightFreq = array[right].second;
-
     int parentFreq = array[index].second;
 
-    if (left < size() && childLeftFreq < parentFreq) {
-        smallerIndex = left;
+    if (left < size()) {
+        int childLeftFreq = array[left].second;
+
+        if (childLeftFreq < parentFreq) {
+            smallerIndex = left;
+        }
     }
 
-    if (right < size() && childRightFreq < array[smallerIndex].second) {
-        smallerIndex = right;
+    if (right < size()) {
+        int childRightFreq = array[right].second;
+
+        if (childRightFreq < array[smallerIndex].second) {
+            smallerIndex = right;
+        }
     }
 
     if (smallerIndex != index) {

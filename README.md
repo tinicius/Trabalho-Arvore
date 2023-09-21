@@ -72,12 +72,16 @@ Texto: ./textos/globalizacao.txt
 
 Palavra: processo
 
-sistema 0000 formas 0001 melhoria 0010 É 0011 pode 0100 quadros 0101 impacto 0110 informações 0111 necessidade 1000 estabelecimento 1001 assim 1010 sentido 1011 sobre 11000 condições 11001 expansão 11010 atual 11011 importante 11100 modo 11101 podemos 11110 importância 11111 
-sobre 133 importante 133 atual 133 condições 133 expansão 133 podemos 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 impacto 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 sentido 200 
-sobre 133 importante 133 atual 133 condições 133 expansão 133 podemos 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 impacto 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 sentido 200 
+Huffman: sistema 0000 formas 0001 melhoria 0010 É 0011 pode 0100 quadros 0101 impacto 0110 informações 0111 necessidade 1000 estabelecimento 1001 assim 1010 sentido 1011 sobre 11000 condições 11001 expansão 11010 atual 11011 importante 11100 modo 11101 podemos 11110 importância 11111 
+Binária: sobre 133 importante 133 atual 133 condições 133 expansão 133 podemos 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 impacto 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 sentido 200 
+AVL: sobre 133 importante 133 atual 133 condições 133 expansão 133 podemos 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 impacto 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 sentido 200 
 
+Palavra: assim
+
+Huffman: formas 0000 importância 0001 necessidade 0010 informações 0011 pode 0100 quadros 0101 modo 0110 É 0111 impacto 1000 podemos 1001 sentido 1010 processo 1011 condições 11000 importante 11001 expansão 11010 geral 11011 sobre 11100 sistema 11101 estabelecimento 11110 melhoria 11111 
+Binária: geral 133 sobre 133 expansão 133 importante 133 condições 133 melhoria 134 impacto 134 pode 134 podemos 134 formas 134 quadros 134 necessidade 134 informações 134 estabelecimento 134 modo 134 importância 134 sistema 134 É 134 processo 200 sentido 200 
+AVL: geral 133 sobre 133 expansão 133 importante 133 condições 133 melhoria 134 impacto 134 pode 134 podemos 134 formas 134 quadros 134 necessidade 134 informações 134 estabelecimento 134 modo 134 importância 134 sistema 134 É 134 processo 200 sentido 200 
 ================================================================================================
-
 ```
 
 ## Conclusão

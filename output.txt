@@ -3,250 +3,250 @@ Texto: ./textos/globalizacao.txt
 
 Palavra: processo
 
-sistema 0000 formas 0001 melhoria 0010 É 0011 pode 0100 quadros 0101 impacto 0110 informações 0111 necessidade 1000 estabelecimento 1001 assim 1010 sentido 1011 sobre 11000 condições 11001 expansão 11010 atual 11011 importante 11100 modo 11101 podemos 11110 importância 11111 
-sobre 133 importante 133 atual 133 condições 133 expansão 133 podemos 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 impacto 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 sentido 200 
-sobre 133 importante 133 atual 133 condições 133 expansão 133 podemos 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 impacto 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 sentido 200 
+Huffman: sistema 0000 formas 0001 melhoria 0010 É 0011 pode 0100 quadros 0101 impacto 0110 informações 0111 necessidade 1000 estabelecimento 1001 assim 1010 sentido 1011 sobre 11000 condições 11001 expansão 11010 atual 11011 importante 11100 modo 11101 podemos 11110 importância 11111 
+Binária: sobre 133 importante 133 atual 133 condições 133 expansão 133 podemos 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 impacto 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 sentido 200 
+AVL: sobre 133 importante 133 atual 133 condições 133 expansão 133 podemos 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 impacto 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 sentido 200 
 
 Palavra: assim
 
-formas 0000 importância 0001 necessidade 0010 informações 0011 pode 0100 quadros 0101 modo 0110 É 0111 impacto 1000 podemos 1001 sentido 1010 processo 1011 condições 11000 importante 11001 expansão 11010 geral 11011 sobre 11100 sistema 11101 estabelecimento 11110 melhoria 11111 
-geral 133 sobre 133 expansão 133 importante 133 condições 133 melhoria 134 impacto 134 pode 134 podemos 134 formas 134 quadros 134 necessidade 134 informações 134 estabelecimento 134 modo 134 importância 134 sistema 134 É 134 processo 200 sentido 200 
-geral 133 sobre 133 expansão 133 importante 133 condições 133 melhoria 134 impacto 134 pode 134 podemos 134 formas 134 quadros 134 necessidade 134 informações 134 estabelecimento 134 modo 134 importância 134 sistema 134 É 134 processo 200 sentido 200 
+Huffman: formas 0000 importância 0001 necessidade 0010 informações 0011 pode 0100 quadros 0101 modo 0110 É 0111 impacto 1000 podemos 1001 sentido 1010 processo 1011 condições 11000 importante 11001 expansão 11010 geral 11011 sobre 11100 sistema 11101 estabelecimento 11110 melhoria 11111 
+Binária: geral 133 sobre 133 expansão 133 importante 133 condições 133 melhoria 134 impacto 134 pode 134 podemos 134 formas 134 quadros 134 necessidade 134 informações 134 estabelecimento 134 modo 134 importância 134 sistema 134 É 134 processo 200 sentido 200 
+AVL: geral 133 sobre 133 expansão 133 importante 133 condições 133 melhoria 134 impacto 134 pode 134 podemos 134 formas 134 quadros 134 necessidade 134 informações 134 estabelecimento 134 modo 134 importância 134 sistema 134 É 134 processo 200 sentido 200 
 
 Palavra: políticas
 
-podemos 0000 importância 0001 melhoria 0010 É 0011 necessidade 0100 impacto 0101 pode 0110 quadros 0111 informações 1000 assim 1001 sentido 1010 processo 1011 sobre 11000 importante 11001 condições 11010 expansão 11011 estabelecimento 11100 modo 11101 sistema 11110 formas 11111 
-sobre 133 importante 133 expansão 133 condições 133 podemos 134 impacto 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 processo 200 sentido 200 
-sobre 133 importante 133 expansão 133 condições 133 podemos 134 impacto 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 processo 200 sentido 200 
+Huffman: podemos 0000 importância 0001 melhoria 0010 É 0011 necessidade 0100 impacto 0101 pode 0110 quadros 0111 informações 1000 assim 1001 sentido 1010 processo 1011 sobre 11000 importante 11001 condições 11010 expansão 11011 estabelecimento 11100 modo 11101 sistema 11110 formas 11111 
+Binária: sobre 133 importante 133 expansão 133 condições 133 podemos 134 impacto 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 processo 200 sentido 200 
+AVL: sobre 133 importante 133 expansão 133 condições 133 podemos 134 impacto 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 processo 200 sentido 200 
 
 Palavra: político
 
-podemos 0000 importância 0001 melhoria 0010 É 0011 necessidade 0100 impacto 0101 pode 0110 quadros 0111 informações 1000 assim 1001 sentido 1010 processo 1011 sobre 11000 importante 11001 condições 11010 expansão 11011 estabelecimento 11100 modo 11101 sistema 11110 formas 11111 
-sobre 133 importante 133 expansão 133 condições 133 podemos 134 impacto 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 processo 200 sentido 200 
-sobre 133 importante 133 expansão 133 condições 133 podemos 134 impacto 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 processo 200 sentido 200 
+Huffman: podemos 0000 importância 0001 melhoria 0010 É 0011 necessidade 0100 impacto 0101 pode 0110 quadros 0111 informações 1000 assim 1001 sentido 1010 processo 1011 sobre 11000 importante 11001 condições 11010 expansão 11011 estabelecimento 11100 modo 11101 sistema 11110 formas 11111 
+Binária: sobre 133 importante 133 expansão 133 condições 133 podemos 134 impacto 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 processo 200 sentido 200 
+AVL: sobre 133 importante 133 expansão 133 condições 133 podemos 134 impacto 134 pode 134 estabelecimento 134 formas 134 melhoria 134 quadros 134 necessidade 134 informações 134 modo 134 importância 134 sistema 134 É 134 assim 199 processo 200 sentido 200 
 
 ================================================================================================
 Texto: ./textos/filosofia2.txt
 
 Palavra: teoria
 
-princípio 0000 imanente 0001 sentido 0010 sobre 0011 segundo 0100 pensamento 0101 sistema 0110 modo 0111 condição 1000 priori 1001 mundo 1010 sujeito 1011 infinito 11000 respeito 11001 vista 11010 possível 11011 É 11100 maneira 11101 wittgenstein 11110 pode 11111 
-infinito 89 respeito 90 wittgenstein 95 maneira 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 
-infinito 89 respeito 90 wittgenstein 95 maneira 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 
+Huffman: princípio 0000 imanente 0001 sentido 0010 sobre 0011 segundo 0100 pensamento 0101 sistema 0110 modo 0111 condição 1000 priori 1001 mundo 1010 sujeito 1011 infinito 11000 respeito 11001 vista 11010 possível 11011 É 11100 maneira 11101 wittgenstein 11110 pode 11111 
+Binária: infinito 89 respeito 90 wittgenstein 95 maneira 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 
+AVL: infinito 89 respeito 90 wittgenstein 95 maneira 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 
 
 Palavra: sujeito
 
-princípio 0000 imanente 0001 sentido 0010 segundo 0011 sobre 0100 pensamento 0101 sistema 0110 modo 0111 condição 1000 mundo 1001 priori 1010 infinito 10110 respeito 10111 possível 11000 wittgenstein 11001 vista 11010 É 11011 maneira 11100 pode 11101 teoria 1111 
-infinito 89 respeito 90 maneira 95 wittgenstein 95 possível 95 É 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 priori 144 teoria 192 
-infinito 89 respeito 90 maneira 95 wittgenstein 95 possível 95 É 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 priori 144 teoria 192 
+Huffman: princípio 0000 imanente 0001 sentido 0010 segundo 0011 sobre 0100 pensamento 0101 sistema 0110 modo 0111 condição 1000 mundo 1001 priori 1010 infinito 10110 respeito 10111 possível 11000 wittgenstein 11001 vista 11010 É 11011 maneira 11100 pode 11101 teoria 1111 
+Binária: infinito 89 respeito 90 maneira 95 wittgenstein 95 possível 95 É 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 priori 144 teoria 192 
+AVL: infinito 89 respeito 90 maneira 95 wittgenstein 95 possível 95 É 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 priori 144 teoria 192 
 
 Palavra: priori
 
-princípio 0000 imanente 0001 sentido 0010 sobre 0011 segundo 0100 pensamento 0101 sistema 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 relação 10110 respeito 10111 vista 11000 possível 11001 É 11010 maneira 11011 wittgenstein 11100 pode 11101 teoria 1111 
-relação 89 respeito 90 wittgenstein 95 maneira 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 sujeito 154 teoria 192 
-relação 89 respeito 90 wittgenstein 95 maneira 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 sujeito 154 teoria 192 
+Huffman: princípio 0000 imanente 0001 sentido 0010 sobre 0011 segundo 0100 pensamento 0101 sistema 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 relação 10110 respeito 10111 vista 11000 possível 11001 É 11010 maneira 11011 wittgenstein 11100 pode 11101 teoria 1111 
+Binária: relação 89 respeito 90 wittgenstein 95 maneira 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 sujeito 154 teoria 192 
+AVL: relação 89 respeito 90 wittgenstein 95 maneira 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 sujeito 154 teoria 192 
 
 Palavra: processo
 
-imanente 0000 sentido 0001 sobre 0010 segundo 0011 pensamento 0100 sistema 0101 modo 0110 condição 0111 priori 1000 mundo 1001 sujeito 1010 respeito 10110 maneira 10111 É 11000 wittgenstein 11001 vista 11010 possível 11011 teoria 1110 pode 11110 princípio 11111 
-respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
-respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
+Huffman: imanente 0000 sentido 0001 sobre 0010 segundo 0011 pensamento 0100 sistema 0101 modo 0110 condição 0111 priori 1000 mundo 1001 sujeito 1010 respeito 10110 maneira 10111 É 11000 wittgenstein 11001 vista 11010 possível 11011 teoria 1110 pode 11110 princípio 11111 
+Binária: respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
+AVL: respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
 
 Palavra: assim
 
-imanente 0000 sentido 0001 segundo 0010 sobre 0011 pensamento 0100 sistema 0101 modo 0110 condição 0111 priori 1000 mundo 1001 sujeito 1010 respeito 10110 vista 10111 maneira 11000 wittgenstein 11001 possível 11010 É 11011 teoria 1110 pode 11110 princípio 11111 
-respeito 90 É 95 wittgenstein 95 possível 95 maneira 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 priori 144 sujeito 154 teoria 192 
-respeito 90 É 95 wittgenstein 95 possível 95 maneira 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 priori 144 sujeito 154 teoria 192 
+Huffman: imanente 0000 sentido 0001 segundo 0010 sobre 0011 pensamento 0100 sistema 0101 modo 0110 condição 0111 priori 1000 mundo 1001 sujeito 1010 respeito 10110 vista 10111 maneira 11000 wittgenstein 11001 possível 11010 É 11011 teoria 1110 pode 11110 princípio 11111 
+Binária: respeito 90 É 95 wittgenstein 95 possível 95 maneira 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 priori 144 sujeito 154 teoria 192 
+AVL: respeito 90 É 95 wittgenstein 95 possível 95 maneira 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 mundo 144 priori 144 sujeito 154 teoria 192 
 
 Palavra: político
 
-imanente 0000 sentido 0001 sobre 0010 segundo 0011 pensamento 0100 sistema 0101 modo 0110 condição 0111 priori 1000 mundo 1001 sujeito 1010 respeito 10110 maneira 10111 É 11000 wittgenstein 11001 vista 11010 possível 11011 teoria 1110 pode 11110 princípio 11111 
-respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
-respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
+Huffman: imanente 0000 sentido 0001 sobre 0010 segundo 0011 pensamento 0100 sistema 0101 modo 0110 condição 0111 priori 1000 mundo 1001 sujeito 1010 respeito 10110 maneira 10111 É 11000 wittgenstein 11001 vista 11010 possível 11011 teoria 1110 pode 11110 princípio 11111 
+Binária: respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
+AVL: respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
 
 Palavra: dados
 
-imanente 0000 sentido 0001 sobre 0010 segundo 0011 pensamento 0100 sistema 0101 modo 0110 condição 0111 priori 1000 mundo 1001 sujeito 1010 respeito 10110 maneira 10111 É 11000 wittgenstein 11001 vista 11010 possível 11011 teoria 1110 pode 11110 princípio 11111 
-respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
-respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
+Huffman: imanente 0000 sentido 0001 sobre 0010 segundo 0011 pensamento 0100 sistema 0101 modo 0110 condição 0111 priori 1000 mundo 1001 sujeito 1010 respeito 10110 maneira 10111 É 11000 wittgenstein 11001 vista 11010 possível 11011 teoria 1110 pode 11110 princípio 11111 
+Binária: respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
+AVL: respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
 
 Palavra: filosofia
 
-imanente 0000 sentido 0001 sobre 0010 segundo 0011 pensamento 0100 sistema 0101 modo 0110 condição 0111 priori 1000 mundo 1001 sujeito 1010 respeito 10110 maneira 10111 É 11000 wittgenstein 11001 vista 11010 possível 11011 teoria 1110 pode 11110 princípio 11111 
-respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
-respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
+Huffman: imanente 0000 sentido 0001 sobre 0010 segundo 0011 pensamento 0100 sistema 0101 modo 0110 condição 0111 priori 1000 mundo 1001 sujeito 1010 respeito 10110 maneira 10111 É 11000 wittgenstein 11001 vista 11010 possível 11011 teoria 1110 pode 11110 princípio 11111 
+Binária: respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
+AVL: respeito 90 maneira 95 wittgenstein 95 É 95 possível 95 vista 95 pode 96 princípio 97 imanente 109 sentido 111 sobre 114 segundo 114 pensamento 115 sistema 119 modo 129 condição 133 priori 144 mundo 144 sujeito 154 teoria 192 
 
 ================================================================================================
 Texto: ./textos/ti2.txt
 
 Palavra: processo
 
-utilização 000 informações 0010 hardware 0011 aumento 0100 melhor 0101 ti 0110 assim 0111 dados 1000 implantação 1001 dúvidas 10100 software 10101 sobre 10110 existem 10111 segurança 1100 problemas 11010 sistema 11011 desenvolvimento 11100 tempo 11101 novas 11110 impacto 11111 
-sobre 134 problemas 134 software 134 existem 134 dúvidas 134 desenvolvimento 199 impacto 199 sistema 199 tempo 199 novas 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 utilização 400 
-sobre 134 problemas 134 software 134 existem 134 dúvidas 134 desenvolvimento 199 impacto 199 sistema 199 tempo 199 novas 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 utilização 400 
+Huffman: utilização 000 informações 0010 hardware 0011 aumento 0100 melhor 0101 ti 0110 assim 0111 dados 1000 implantação 1001 dúvidas 10100 software 10101 sobre 10110 existem 10111 segurança 1100 problemas 11010 sistema 11011 desenvolvimento 11100 tempo 11101 novas 11110 impacto 11111 
+Binária: sobre 134 problemas 134 software 134 existem 134 dúvidas 134 desenvolvimento 199 impacto 199 sistema 199 tempo 199 novas 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 utilização 400 
+AVL: sobre 134 problemas 134 software 134 existem 134 dúvidas 134 desenvolvimento 199 impacto 199 sistema 199 tempo 199 novas 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 utilização 400 
 
 Palavra: assim
 
-impacto 0000 informações 0001 utilização 001 hardware 0100 ti 0101 melhor 0110 aumento 0111 dados 1000 implantação 1001 segurança 1010 serviços 10110 software 10111 dúvidas 11000 sobre 11001 existem 11010 problemas 11011 novas 11100 desenvolvimento 11101 tempo 11110 sistema 11111 
-serviços 134 sobre 134 dúvidas 134 software 134 problemas 134 existem 134 impacto 199 sistema 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 aumento 201 implantação 267 segurança 268 utilização 400 
-serviços 134 sobre 134 dúvidas 134 software 134 problemas 134 existem 134 impacto 199 sistema 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 aumento 201 implantação 267 segurança 268 utilização 400 
+Huffman: impacto 0000 informações 0001 utilização 001 hardware 0100 ti 0101 melhor 0110 aumento 0111 dados 1000 implantação 1001 segurança 1010 serviços 10110 software 10111 dúvidas 11000 sobre 11001 existem 11010 problemas 11011 novas 11100 desenvolvimento 11101 tempo 11110 sistema 11111 
+Binária: serviços 134 sobre 134 dúvidas 134 software 134 problemas 134 existem 134 impacto 199 sistema 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 aumento 201 implantação 267 segurança 268 utilização 400 
+AVL: serviços 134 sobre 134 dúvidas 134 software 134 problemas 134 existem 134 impacto 199 sistema 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 aumento 201 implantação 267 segurança 268 utilização 400 
 
 Palavra: políticas
 
-informações 0000 hardware 0001 utilização 001 assim 0100 ti 0101 melhor 0110 aumento 0111 dados 1000 implantação 1001 existem 10100 problemas 10101 dúvidas 10110 sobre 10111 segurança 1100 software 11010 sistema 11011 tempo 11100 novas 11101 desenvolvimento 11110 impacto 11111 
-sobre 134 software 134 dúvidas 134 problemas 134 existem 134 sistema 199 impacto 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 aumento 201 assim 201 melhor 201 ti 201 implantação 267 segurança 268 utilização 400 
-sobre 134 software 134 dúvidas 134 problemas 134 existem 134 sistema 199 impacto 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 aumento 201 assim 201 melhor 201 ti 201 implantação 267 segurança 268 utilização 400 
+Huffman: informações 0000 hardware 0001 utilização 001 assim 0100 ti 0101 melhor 0110 aumento 0111 dados 1000 implantação 1001 existem 10100 problemas 10101 dúvidas 10110 sobre 10111 segurança 1100 software 11010 sistema 11011 tempo 11100 novas 11101 desenvolvimento 11110 impacto 11111 
+Binária: sobre 134 software 134 dúvidas 134 problemas 134 existem 134 sistema 199 impacto 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 aumento 201 assim 201 melhor 201 ti 201 implantação 267 segurança 268 utilização 400 
+AVL: sobre 134 software 134 dúvidas 134 problemas 134 existem 134 sistema 199 impacto 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 aumento 201 assim 201 melhor 201 ti 201 implantação 267 segurança 268 utilização 400 
 
 Palavra: ti
 
-impacto 0000 informações 0001 utilização 001 hardware 0100 assim 0101 melhor 0110 aumento 0111 dados 1000 implantação 1001 segurança 1010 serviços 10110 software 10111 dúvidas 11000 sobre 11001 existem 11010 problemas 11011 novas 11100 desenvolvimento 11101 tempo 11110 sistema 11111 
-serviços 134 sobre 134 dúvidas 134 software 134 problemas 134 existem 134 impacto 199 sistema 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 assim 201 melhor 201 aumento 201 implantação 267 segurança 268 utilização 400 
-serviços 134 sobre 134 dúvidas 134 software 134 problemas 134 existem 134 impacto 199 sistema 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 assim 201 melhor 201 aumento 201 implantação 267 segurança 268 utilização 400 
+Huffman: impacto 0000 informações 0001 utilização 001 hardware 0100 assim 0101 melhor 0110 aumento 0111 dados 1000 implantação 1001 segurança 1010 serviços 10110 software 10111 dúvidas 11000 sobre 11001 existem 11010 problemas 11011 novas 11100 desenvolvimento 11101 tempo 11110 sistema 11111 
+Binária: serviços 134 sobre 134 dúvidas 134 software 134 problemas 134 existem 134 impacto 199 sistema 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 assim 201 melhor 201 aumento 201 implantação 267 segurança 268 utilização 400 
+AVL: serviços 134 sobre 134 dúvidas 134 software 134 problemas 134 existem 134 impacto 199 sistema 199 novas 199 desenvolvimento 199 tempo 199 informações 200 hardware 200 dados 201 assim 201 melhor 201 aumento 201 implantação 267 segurança 268 utilização 400 
 
 Palavra: segurança
 
-impacto 0000 informações 0001 utilização 001 hardware 0100 melhor 0101 aumento 0110 dados 0111 assim 1000 ti 1001 implantação 1010 dúvidas 10110 rede 10111 problemas 11000 existem 11001 uso 11010 software 11011 sistema 11100 desenvolvimento 11101 tempo 11110 novas 11111 
-uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 utilização 400 
-uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 utilização 400 
+Huffman: impacto 0000 informações 0001 utilização 001 hardware 0100 melhor 0101 aumento 0110 dados 0111 assim 1000 ti 1001 implantação 1010 dúvidas 10110 rede 10111 problemas 11000 existem 11001 uso 11010 software 11011 sistema 11100 desenvolvimento 11101 tempo 11110 novas 11111 
+Binária: uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 utilização 400 
+AVL: uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 utilização 400 
 
 Palavra: utilização
 
-tempo 0000 novas 0001 impacto 0010 informações 0011 hardware 0100 melhor 0101 assim 0110 ti 0111 aumento 1000 dados 1001 implantação 1010 dúvidas 10110 rede 10111 uso 11000 software 11001 problemas 11010 existem 11011 segurança 1110 sistema 11110 desenvolvimento 11111 
-uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 
-uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 
+Huffman: tempo 0000 novas 0001 impacto 0010 informações 0011 hardware 0100 melhor 0101 assim 0110 ti 0111 aumento 1000 dados 1001 implantação 1010 dúvidas 10110 rede 10111 uso 11000 software 11001 problemas 11010 existem 11011 segurança 1110 sistema 11110 desenvolvimento 11111 
+Binária: uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 
+AVL: uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 dados 201 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 
 
 Palavra: dados
 
-impacto 0000 informações 0001 utilização 001 hardware 0100 melhor 0101 assim 0110 ti 0111 aumento 1000 implantação 1001 uso 10100 software 10101 segurança 1011 dúvidas 11000 rede 11001 problemas 11010 existem 11011 sistema 11100 desenvolvimento 11101 tempo 11110 novas 11111 
-uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 utilização 400 
-uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 utilização 400 
+Huffman: impacto 0000 informações 0001 utilização 001 hardware 0100 melhor 0101 assim 0110 ti 0111 aumento 1000 implantação 1001 uso 10100 software 10101 segurança 1011 dúvidas 11000 rede 11001 problemas 11010 existem 11011 sistema 11100 desenvolvimento 11101 tempo 11110 novas 11111 
+Binária: uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 utilização 400 
+AVL: uso 134 problemas 134 rede 134 existem 134 software 134 dúvidas 134 desenvolvimento 199 sistema 199 tempo 199 novas 199 impacto 199 informações 200 hardware 200 ti 201 melhor 201 assim 201 aumento 201 implantação 267 segurança 268 utilização 400 
 
 ================================================================================================
 Texto: ./textos/filosofia.txt
 
 Palavra: teoria
 
-É 0000 imanente 0001 sentido 0010 sobre 0011 segundo 0100 sistema 0101 pensamento 0110 priori 0111 modo 1000 condição 1001 mundo 1010 sujeito 1011 princípio 11000 virtual 11001 assim 11010 quanto 11011 pode 11100 wittgenstein 11101 maneira 11110 vista 11111 
-princípio 91 virtual 93 assim 94 maneira 95 pode 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 
-princípio 91 virtual 93 assim 94 maneira 95 pode 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 
+Huffman: É 0000 imanente 0001 sentido 0010 sobre 0011 segundo 0100 sistema 0101 pensamento 0110 priori 0111 modo 1000 condição 1001 mundo 1010 sujeito 1011 princípio 11000 virtual 11001 assim 11010 quanto 11011 pode 11100 wittgenstein 11101 maneira 11110 vista 11111 
+Binária: princípio 91 virtual 93 assim 94 maneira 95 pode 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 
+AVL: princípio 91 virtual 93 assim 94 maneira 95 pode 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 
 
 Palavra: sujeito
 
-É 0000 imanente 0001 sentido 0010 sobre 0011 segundo 0100 sistema 0101 pensamento 0110 priori 0111 modo 1000 condição 1001 mundo 1010 teoria 1011 princípio 11000 virtual 11001 assim 11010 quanto 11011 maneira 11100 wittgenstein 11101 pode 11110 vista 11111 
-princípio 91 virtual 93 assim 94 pode 95 maneira 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 teoria 176 
-princípio 91 virtual 93 assim 94 pode 95 maneira 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 teoria 176 
+Huffman: É 0000 imanente 0001 sentido 0010 sobre 0011 segundo 0100 sistema 0101 pensamento 0110 priori 0111 modo 1000 condição 1001 mundo 1010 teoria 1011 princípio 11000 virtual 11001 assim 11010 quanto 11011 maneira 11100 wittgenstein 11101 pode 11110 vista 11111 
+Binária: princípio 91 virtual 93 assim 94 pode 95 maneira 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 teoria 176 
+AVL: princípio 91 virtual 93 assim 94 pode 95 maneira 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 teoria 176 
 
 Palavra: priori
 
-É 0000 imanente 0001 sentido 0010 sobre 0011 segundo 0100 sistema 0101 pensamento 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 princípio 11000 virtual 11001 assim 11010 quanto 11011 pode 11100 wittgenstein 11101 maneira 11110 vista 11111 
-princípio 91 virtual 93 assim 94 maneira 95 pode 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
-princípio 91 virtual 93 assim 94 maneira 95 pode 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+Huffman: É 0000 imanente 0001 sentido 0010 sobre 0011 segundo 0100 sistema 0101 pensamento 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 princípio 11000 virtual 11001 assim 11010 quanto 11011 pode 11100 wittgenstein 11101 maneira 11110 vista 11111 
+Binária: princípio 91 virtual 93 assim 94 maneira 95 pode 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+AVL: princípio 91 virtual 93 assim 94 maneira 95 pode 95 quanto 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
 
 Palavra: processo
 
-imanente 0000 sentido 0001 sobre 0010 segundo 0011 sistema 0100 pensamento 0101 priori 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 virtual 11000 assim 11001 pode 11010 maneira 11011 quanto 11100 wittgenstein 11101 vista 11110 É 11111 
-virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
-virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+Huffman: imanente 0000 sentido 0001 sobre 0010 segundo 0011 sistema 0100 pensamento 0101 priori 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 virtual 11000 assim 11001 pode 11010 maneira 11011 quanto 11100 wittgenstein 11101 vista 11110 É 11111 
+Binária: virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+AVL: virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
 
 Palavra: assim
 
-imanente 0000 sentido 0001 sobre 0010 segundo 0011 sistema 0100 pensamento 0101 priori 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 princípio 11000 virtual 11001 quanto 11010 wittgenstein 11011 maneira 11100 pode 11101 vista 11110 É 11111 
-princípio 91 virtual 93 pode 95 quanto 95 maneira 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
-princípio 91 virtual 93 pode 95 quanto 95 maneira 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+Huffman: imanente 0000 sentido 0001 sobre 0010 segundo 0011 sistema 0100 pensamento 0101 priori 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 princípio 11000 virtual 11001 quanto 11010 wittgenstein 11011 maneira 11100 pode 11101 vista 11110 É 11111 
+Binária: princípio 91 virtual 93 pode 95 quanto 95 maneira 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+AVL: princípio 91 virtual 93 pode 95 quanto 95 maneira 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
 
 Palavra: político
 
-imanente 0000 sentido 0001 sobre 0010 segundo 0011 sistema 0100 pensamento 0101 priori 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 virtual 11000 assim 11001 pode 11010 maneira 11011 quanto 11100 wittgenstein 11101 vista 11110 É 11111 
-virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
-virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+Huffman: imanente 0000 sentido 0001 sobre 0010 segundo 0011 sistema 0100 pensamento 0101 priori 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 virtual 11000 assim 11001 pode 11010 maneira 11011 quanto 11100 wittgenstein 11101 vista 11110 É 11111 
+Binária: virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+AVL: virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
 
 Palavra: dados
 
-imanente 0000 sentido 0001 sobre 0010 segundo 0011 sistema 0100 pensamento 0101 priori 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 virtual 11000 assim 11001 pode 11010 maneira 11011 quanto 11100 wittgenstein 11101 vista 11110 É 11111 
-virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
-virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+Huffman: imanente 0000 sentido 0001 sobre 0010 segundo 0011 sistema 0100 pensamento 0101 priori 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 virtual 11000 assim 11001 pode 11010 maneira 11011 quanto 11100 wittgenstein 11101 vista 11110 É 11111 
+Binária: virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+AVL: virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
 
 Palavra: filosofia
 
-imanente 0000 sentido 0001 sobre 0010 segundo 0011 sistema 0100 pensamento 0101 priori 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 virtual 11000 assim 11001 pode 11010 maneira 11011 quanto 11100 wittgenstein 11101 vista 11110 É 11111 
-virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
-virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+Huffman: imanente 0000 sentido 0001 sobre 0010 segundo 0011 sistema 0100 pensamento 0101 priori 0110 modo 0111 condição 1000 mundo 1001 sujeito 1010 teoria 1011 virtual 11000 assim 11001 pode 11010 maneira 11011 quanto 11100 wittgenstein 11101 vista 11110 É 11111 
+Binária: virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
+AVL: virtual 93 assim 94 maneira 95 quanto 95 pode 95 wittgenstein 95 É 96 vista 96 imanente 104 sentido 110 segundo 114 sobre 114 pensamento 115 sistema 115 priori 125 modo 129 condição 134 mundo 134 sujeito 158 teoria 176 
 
 ================================================================================================
 Texto: ./textos/ti.txt
 
 Palavra: processo
 
-aumento 0000 sistema 0001 melhor 0010 desenvolvimento 0011 impacto 0100 informações 0101 dados 0110 novas 0111 ti 1000 implantação 1001 segurança 1010 necessidade 10110 sentido 10111 rede 11000 software 11001 integridade 11010 assim 11011 tempo 11100 hardware 11101 utilização 1111 
-necessidade 134 integridade 134 software 134 sentido 134 rede 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 ti 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
-necessidade 134 integridade 134 software 134 sentido 134 rede 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 ti 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
+Huffman: aumento 0000 sistema 0001 melhor 0010 desenvolvimento 0011 impacto 0100 informações 0101 dados 0110 novas 0111 ti 1000 implantação 1001 segurança 1010 necessidade 10110 sentido 10111 rede 11000 software 11001 integridade 11010 assim 11011 tempo 11100 hardware 11101 utilização 1111 
+Binária: necessidade 134 integridade 134 software 134 sentido 134 rede 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 ti 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
+AVL: necessidade 134 integridade 134 software 134 sentido 134 rede 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 ti 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
 
 Palavra: assim
 
-melhor 0000 aumento 0001 desenvolvimento 0010 sistema 0011 impacto 0100 dados 0101 informações 0110 novas 0111 ti 1000 implantação 1001 necessidade 10100 rede 10101 segurança 1011 sentido 11000 integridade 11001 envolvidos 11010 software 11011 tempo 11100 hardware 11101 utilização 1111 
-necessidade 134 integridade 134 software 134 sentido 134 rede 134 envolvidos 134 hardware 199 tempo 199 desenvolvimento 200 aumento 200 impacto 200 melhor 200 sistema 200 dados 201 novas 201 ti 201 informações 201 implantação 266 segurança 268 utilização 399 
-necessidade 134 integridade 134 software 134 sentido 134 rede 134 envolvidos 134 hardware 199 tempo 199 desenvolvimento 200 aumento 200 impacto 200 melhor 200 sistema 200 dados 201 novas 201 ti 201 informações 201 implantação 266 segurança 268 utilização 399 
+Huffman: melhor 0000 aumento 0001 desenvolvimento 0010 sistema 0011 impacto 0100 dados 0101 informações 0110 novas 0111 ti 1000 implantação 1001 necessidade 10100 rede 10101 segurança 1011 sentido 11000 integridade 11001 envolvidos 11010 software 11011 tempo 11100 hardware 11101 utilização 1111 
+Binária: necessidade 134 integridade 134 software 134 sentido 134 rede 134 envolvidos 134 hardware 199 tempo 199 desenvolvimento 200 aumento 200 impacto 200 melhor 200 sistema 200 dados 201 novas 201 ti 201 informações 201 implantação 266 segurança 268 utilização 399 
+AVL: necessidade 134 integridade 134 software 134 sentido 134 rede 134 envolvidos 134 hardware 199 tempo 199 desenvolvimento 200 aumento 200 impacto 200 melhor 200 sistema 200 dados 201 novas 201 ti 201 informações 201 implantação 266 segurança 268 utilização 399 
 
 Palavra: políticas
 
-sistema 0000 impacto 0001 desenvolvimento 0010 melhor 0011 aumento 0100 informações 0101 dados 0110 novas 0111 ti 1000 implantação 1001 envolvidos 10100 integridade 10101 rede 10110 software 10111 segurança 1100 sentido 11010 assim 11011 tempo 11100 hardware 11101 utilização 1111 
-integridade 134 sentido 134 software 134 rede 134 envolvidos 134 assim 199 tempo 199 hardware 199 desenvolvimento 200 aumento 200 sistema 200 impacto 200 melhor 200 novas 201 ti 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
-integridade 134 sentido 134 software 134 rede 134 envolvidos 134 assim 199 tempo 199 hardware 199 desenvolvimento 200 aumento 200 sistema 200 impacto 200 melhor 200 novas 201 ti 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
+Huffman: sistema 0000 impacto 0001 desenvolvimento 0010 melhor 0011 aumento 0100 informações 0101 dados 0110 novas 0111 ti 1000 implantação 1001 envolvidos 10100 integridade 10101 rede 10110 software 10111 segurança 1100 sentido 11010 assim 11011 tempo 11100 hardware 11101 utilização 1111 
+Binária: integridade 134 sentido 134 software 134 rede 134 envolvidos 134 assim 199 tempo 199 hardware 199 desenvolvimento 200 aumento 200 sistema 200 impacto 200 melhor 200 novas 201 ti 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
+AVL: integridade 134 sentido 134 software 134 rede 134 envolvidos 134 assim 199 tempo 199 hardware 199 desenvolvimento 200 aumento 200 sistema 200 impacto 200 melhor 200 novas 201 ti 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
 
 Palavra: ti
 
-hardware 0000 melhor 0001 desenvolvimento 0010 aumento 0011 sistema 0100 impacto 0101 informações 0110 novas 0111 dados 1000 implantação 1001 utilizados 10100 integridade 10101 necessidade 10110 envolvidos 10111 segurança 1100 rede 11010 software 11011 assim 11100 tempo 11101 utilização 1111 
-necessidade 134 integridade 134 software 134 utilizados 134 envolvidos 134 rede 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
-necessidade 134 integridade 134 software 134 utilizados 134 envolvidos 134 rede 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
+Huffman: hardware 0000 melhor 0001 desenvolvimento 0010 aumento 0011 sistema 0100 impacto 0101 informações 0110 novas 0111 dados 1000 implantação 1001 utilizados 10100 integridade 10101 necessidade 10110 envolvidos 10111 segurança 1100 rede 11010 software 11011 assim 11100 tempo 11101 utilização 1111 
+Binária: necessidade 134 integridade 134 software 134 utilizados 134 envolvidos 134 rede 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
+AVL: necessidade 134 integridade 134 software 134 utilizados 134 envolvidos 134 rede 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 informações 201 dados 201 implantação 266 segurança 268 utilização 399 
 
 Palavra: segurança
 
-hardware 0000 melhor 0001 sistema 0010 impacto 0011 desenvolvimento 0100 aumento 0101 novas 0110 dados 0111 ti 1000 informações 1001 implantação 1010 utilizados 10110 integridade 10111 envolvidos 11000 software 11001 necessidade 11010 rede 11011 assim 11100 tempo 11101 utilização 1111 
-necessidade 134 integridade 134 software 134 utilizados 134 rede 134 envolvidos 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 ti 201 informações 201 dados 201 implantação 266 utilização 399 
-necessidade 134 integridade 134 software 134 utilizados 134 rede 134 envolvidos 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 ti 201 informações 201 dados 201 implantação 266 utilização 399 
+Huffman: hardware 0000 melhor 0001 sistema 0010 impacto 0011 desenvolvimento 0100 aumento 0101 novas 0110 dados 0111 ti 1000 informações 1001 implantação 1010 utilizados 10110 integridade 10111 envolvidos 11000 software 11001 necessidade 11010 rede 11011 assim 11100 tempo 11101 utilização 1111 
+Binária: necessidade 134 integridade 134 software 134 utilizados 134 rede 134 envolvidos 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 ti 201 informações 201 dados 201 implantação 266 utilização 399 
+AVL: necessidade 134 integridade 134 software 134 utilizados 134 rede 134 envolvidos 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 melhor 200 impacto 200 aumento 200 sistema 200 novas 201 ti 201 informações 201 dados 201 implantação 266 utilização 399 
 
 Palavra: utilização
 
-hardware 0000 melhor 0001 desenvolvimento 0010 impacto 0011 aumento 0100 sistema 0101 ti 0110 dados 0111 informações 1000 novas 1001 implantação 1010 segurança 1011 rede 11000 software 11001 utilizados 11010 integridade 11011 necessidade 11100 envolvidos 11101 assim 11110 tempo 11111 
-necessidade 134 integridade 134 software 134 utilizados 134 envolvidos 134 rede 134 assim 199 hardware 199 tempo 199 impacto 200 melhor 200 desenvolvimento 200 aumento 200 sistema 200 informações 201 novas 201 ti 201 dados 201 implantação 266 segurança 268 
-necessidade 134 integridade 134 software 134 utilizados 134 envolvidos 134 rede 134 assim 199 hardware 199 tempo 199 impacto 200 melhor 200 desenvolvimento 200 aumento 200 sistema 200 informações 201 novas 201 ti 201 dados 201 implantação 266 segurança 268 
+Huffman: hardware 0000 melhor 0001 desenvolvimento 0010 impacto 0011 aumento 0100 sistema 0101 ti 0110 dados 0111 informações 1000 novas 1001 implantação 1010 segurança 1011 rede 11000 software 11001 utilizados 11010 integridade 11011 necessidade 11100 envolvidos 11101 assim 11110 tempo 11111 
+Binária: necessidade 134 integridade 134 software 134 utilizados 134 envolvidos 134 rede 134 assim 199 hardware 199 tempo 199 impacto 200 melhor 200 desenvolvimento 200 aumento 200 sistema 200 informações 201 novas 201 ti 201 dados 201 implantação 266 segurança 268 
+AVL: necessidade 134 integridade 134 software 134 utilizados 134 envolvidos 134 rede 134 assim 199 hardware 199 tempo 199 impacto 200 melhor 200 desenvolvimento 200 aumento 200 sistema 200 informações 201 novas 201 ti 201 dados 201 implantação 266 segurança 268 
 
 Palavra: dados
 
-hardware 0000 aumento 0001 desenvolvimento 0010 melhor 0011 sistema 0100 impacto 0101 informações 0110 novas 0111 ti 1000 implantação 1001 sentido 10100 integridade 10101 necessidade 10110 rede 10111 segurança 1100 envolvidos 11010 software 11011 assim 11100 tempo 11101 utilização 1111 
-necessidade 134 integridade 134 software 134 sentido 134 rede 134 envolvidos 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 aumento 200 impacto 200 melhor 200 sistema 200 novas 201 ti 201 informações 201 implantação 266 segurança 268 utilização 399 
-necessidade 134 integridade 134 software 134 sentido 134 rede 134 envolvidos 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 aumento 200 impacto 200 melhor 200 sistema 200 novas 201 ti 201 informações 201 implantação 266 segurança 268 utilização 399 
+Huffman: hardware 0000 aumento 0001 desenvolvimento 0010 melhor 0011 sistema 0100 impacto 0101 informações 0110 novas 0111 ti 1000 implantação 1001 sentido 10100 integridade 10101 necessidade 10110 rede 10111 segurança 1100 envolvidos 11010 software 11011 assim 11100 tempo 11101 utilização 1111 
+Binária: necessidade 134 integridade 134 software 134 sentido 134 rede 134 envolvidos 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 aumento 200 impacto 200 melhor 200 sistema 200 novas 201 ti 201 informações 201 implantação 266 segurança 268 utilização 399 
+AVL: necessidade 134 integridade 134 software 134 sentido 134 rede 134 envolvidos 134 assim 199 hardware 199 tempo 199 desenvolvimento 200 aumento 200 impacto 200 melhor 200 sistema 200 novas 201 ti 201 informações 201 implantação 266 segurança 268 utilização 399 
 
 ================================================================================================
 Texto: ./textos/politica.txt
 
 Palavra: processo
 
-política 0000 metas 0001 eleitores 0010 sentido 0011 político 010 saúde 0110 melhoria 0111 assim 1000 atual 1001 políticas 1010 longo 10110 geral 10111 impacto 11000 É 11001 importância 11010 segurança 11011 podemos 11100 formação 11101 ainda 11110 condições 11111 
-segurança 134 condições 134 impacto 134 geral 134 ainda 134 importância 134 formação 134 longo 134 É 134 podemos 134 política 198 metas 199 eleitores 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 político 400 
-segurança 134 condições 134 impacto 134 geral 134 ainda 134 importância 134 formação 134 longo 134 É 134 podemos 134 política 198 metas 199 eleitores 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 político 400 
+Huffman: política 0000 metas 0001 eleitores 0010 sentido 0011 político 010 saúde 0110 melhoria 0111 assim 1000 atual 1001 políticas 1010 longo 10110 geral 10111 impacto 11000 É 11001 importância 11010 segurança 11011 podemos 11100 formação 11101 ainda 11110 condições 11111 
+Binária: segurança 134 condições 134 impacto 134 geral 134 ainda 134 importância 134 formação 134 longo 134 É 134 podemos 134 política 198 metas 199 eleitores 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 político 400 
+AVL: segurança 134 condições 134 impacto 134 geral 134 ainda 134 importância 134 formação 134 longo 134 É 134 podemos 134 política 198 metas 199 eleitores 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 político 400 
 
 Palavra: assim
 
-política 0000 processo 0001 metas 0010 eleitores 0011 político 010 sentido 0110 atual 0111 saúde 1000 melhoria 1001 políticas 1010 importância 10110 podemos 10111 longo 11000 ainda 11001 impacto 11010 formação 11011 É 11100 segurança 11101 geral 11110 condições 11111 
-geral 134 segurança 134 longo 134 condições 134 formação 134 É 134 podemos 134 impacto 134 ainda 134 importância 134 processo 198 política 198 metas 199 eleitores 199 sentido 200 saúde 201 melhoria 201 atual 201 políticas 267 político 400 
-geral 134 segurança 134 longo 134 condições 134 formação 134 É 134 podemos 134 impacto 134 ainda 134 importância 134 processo 198 política 198 metas 199 eleitores 199 sentido 200 saúde 201 melhoria 201 atual 201 políticas 267 político 400 
+Huffman: política 0000 processo 0001 metas 0010 eleitores 0011 político 010 sentido 0110 atual 0111 saúde 1000 melhoria 1001 políticas 1010 importância 10110 podemos 10111 longo 11000 ainda 11001 impacto 11010 formação 11011 É 11100 segurança 11101 geral 11110 condições 11111 
+Binária: geral 134 segurança 134 longo 134 condições 134 formação 134 É 134 podemos 134 impacto 134 ainda 134 importância 134 processo 198 política 198 metas 199 eleitores 199 sentido 200 saúde 201 melhoria 201 atual 201 políticas 267 político 400 
+AVL: geral 134 segurança 134 longo 134 condições 134 formação 134 É 134 podemos 134 impacto 134 ainda 134 importância 134 processo 198 política 198 metas 199 eleitores 199 sentido 200 saúde 201 melhoria 201 atual 201 políticas 267 político 400 
 
 Palavra: políticas
 
-política 0000 processo 0001 metas 0010 eleitores 0011 político 010 sentido 0110 assim 0111 atual 1000 saúde 1001 melhoria 1010 longo 10110 ainda 10111 É 11000 segurança 11001 importância 11010 podemos 11011 formação 11100 geral 11101 modo 11110 condições 11111 
-modo 134 segurança 134 longo 134 condições 134 geral 134 É 134 podemos 134 formação 134 ainda 134 importância 134 processo 198 política 198 eleitores 199 metas 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 político 400 
-modo 134 segurança 134 longo 134 condições 134 geral 134 É 134 podemos 134 formação 134 ainda 134 importância 134 processo 198 política 198 eleitores 199 metas 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 político 400 
+Huffman: política 0000 processo 0001 metas 0010 eleitores 0011 político 010 sentido 0110 assim 0111 atual 1000 saúde 1001 melhoria 1010 longo 10110 ainda 10111 É 11000 segurança 11001 importância 11010 podemos 11011 formação 11100 geral 11101 modo 11110 condições 11111 
+Binária: modo 134 segurança 134 longo 134 condições 134 geral 134 É 134 podemos 134 formação 134 ainda 134 importância 134 processo 198 política 198 eleitores 199 metas 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 político 400 
+AVL: modo 134 segurança 134 longo 134 condições 134 geral 134 É 134 podemos 134 formação 134 ainda 134 importância 134 processo 198 política 198 eleitores 199 metas 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 político 400 
 
 Palavra: político
 
-importância 0000 segurança 0001 política 0010 processo 0011 metas 0100 eleitores 0101 sentido 0110 assim 0111 atual 1000 saúde 1001 melhoria 1010 políticas 1011 longo 11000 geral 11001 podemos 11010 formação 11011 impacto 11100 É 11101 ainda 11110 condições 11111 
-segurança 134 condições 134 impacto 134 geral 134 ainda 134 importância 134 formação 134 longo 134 É 134 podemos 134 processo 198 política 198 eleitores 199 metas 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 
-segurança 134 condições 134 impacto 134 geral 134 ainda 134 importância 134 formação 134 longo 134 É 134 podemos 134 processo 198 política 198 eleitores 199 metas 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 
+Huffman: importância 0000 segurança 0001 política 0010 processo 0011 metas 0100 eleitores 0101 sentido 0110 assim 0111 atual 1000 saúde 1001 melhoria 1010 políticas 1011 longo 11000 geral 11001 podemos 11010 formação 11011 impacto 11100 É 11101 ainda 11110 condições 11111 
+Binária: segurança 134 condições 134 impacto 134 geral 134 ainda 134 importância 134 formação 134 longo 134 É 134 podemos 134 processo 198 política 198 eleitores 199 metas 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 
+AVL: segurança 134 condições 134 impacto 134 geral 134 ainda 134 importância 134 formação 134 longo 134 É 134 podemos 134 processo 198 política 198 eleitores 199 metas 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 
 
 Palavra: segurança
 
-processo 0000 metas 0001 eleitores 0010 sentido 0011 político 010 atual 0110 melhoria 0111 assim 1000 saúde 1001 políticas 1010 geral 10110 longo 10111 impacto 11000 condições 11001 podemos 11010 importância 11011 É 11100 ainda 11101 formação 11110 política 11111 
-condições 134 geral 134 impacto 134 formação 134 ainda 134 importância 134 longo 134 É 134 podemos 134 processo 198 política 198 metas 199 eleitores 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 político 400 
-condições 134 geral 134 impacto 134 formação 134 ainda 134 importância 134 longo 134 É 134 podemos 134 processo 198 política 198 metas 199 eleitores 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 político 400 
+Huffman: processo 0000 metas 0001 eleitores 0010 sentido 0011 político 010 atual 0110 melhoria 0111 assim 1000 saúde 1001 políticas 1010 geral 10110 longo 10111 impacto 11000 condições 11001 podemos 11010 importância 11011 É 11100 ainda 11101 formação 11110 política 11111 
+Binária: condições 134 geral 134 impacto 134 formação 134 ainda 134 importância 134 longo 134 É 134 podemos 134 processo 198 política 198 metas 199 eleitores 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 político 400 
+AVL: condições 134 geral 134 impacto 134 formação 134 ainda 134 importância 134 longo 134 É 134 podemos 134 processo 198 política 198 metas 199 eleitores 199 sentido 200 melhoria 201 saúde 201 assim 201 atual 201 políticas 267 político 400 
 

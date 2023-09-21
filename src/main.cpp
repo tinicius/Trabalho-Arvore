@@ -65,12 +65,16 @@ int main() {
 
             file << "Palavra: " << inputWord << endl << endl;
 
+
+            file << "Huffman: ";
             createHuffmanTree(elements, file);
             file << endl;
 
+            file << "Binária: ";
             binaryTree.showPreOrder();
             file << endl;
 
+            file << "AVL: ";
             avlTree.showPreOrder();
             file << endl;
 
