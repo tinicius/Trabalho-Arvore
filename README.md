@@ -105,11 +105,13 @@ Para realizar os testes foram feitas medias alterando em cada uma delas a variá
 | Tempo máximo (ms) |  0.047982 | 24.545000|
 | Tempo mínimo (ms) | 0.036736 | 14.823000 |
 
-Podemos analisar o tempo médio de execução pegando os pontos após a estabilização, onde a função logaritma apresenta um comportamento próximo ao linear.
+Podemos analisar o tempo médio de execução pegando os pontos após a estabilização, onde a função logaritma apresenta um comportamento próximo ao linear. Assim é possível perceber que mesmo visualmente o gráfico aparente muitas variações, estas representam diferenças muitas pequenas em tempo.
 
  <img src="./images/avl x binaria.png" alt=""> 
 
 Para poder comparar os dois gráficos colocamos dados com um eixo y logaritmo, aproximando as curvas.
+
+Por fim, além de conseguir analisar o comportamento dos gráficos, podemos perceber como a criação da AVL é bastante custusa comparado a binária. Isso se deve as rotações necessárias, oque não é realizado na binária. Entretanto essa diferença de custo na criação pode ser compensada nas buscas. A AVL terá um desempenho melhor em pesquisas por estar balanceada.
 
 ## Conclusão
 
