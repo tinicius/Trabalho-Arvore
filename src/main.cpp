@@ -45,7 +45,7 @@ void run(int K) {
         unordered_map<string, int> freqTable;
         insertOnFreqTable(freqTable, textPath);
 
-        cout << freqTable.size() << endl;
+        // cout << freqTable.size() << endl;
 
         for (string& inputWord : inputWords) {
             if (freqTable[inputWord] == 0) continue;
@@ -57,12 +57,12 @@ void run(int K) {
 
             freqTable[inputWord] = aux;
 
-            BinaryTree binaryTree(file);
-            // AvlTree avlTree(file);
+            // BinaryTree binaryTree(file);
+            AvlTree avlTree(file);
 
             for (auto e : elements) {
-                binaryTree.push(e);
-            //     avlTree.push(e);
+                // binaryTree.push(e);
+                avlTree.push(e);
             }
 
             file << "Palavra: " << inputWord << endl << endl;
@@ -71,12 +71,13 @@ void run(int K) {
             // createHuffmanTree(elements, file);
             // file << endl;
 
-            file << "Binária: ";
-            binaryTree.showPreOrder();
-            file << endl;
-
-            // avlTree.showPreOrder();
+            // file << "Binária: ";
+            // binaryTree.showPreOrder();
             // file << endl;
+
+            file << "AVL: ";
+            avlTree.showPreOrder();
+            file << endl;
 
             file << endl;
         }
@@ -86,18 +87,18 @@ void run(int K) {
 }
 
 int main() {
-    for (int i = 0; i < 1; i++) {
+    for (int i = 1; i < 1000; i+=10) {
         clock_t startExe, endExe;
         double execution_time;
 
         startExe = clock();
 
-        run(300);
+        run(i);
 
         endExe = clock();
         execution_time = ((double)(endExe - startExe)) / CLOCKS_PER_SEC;
 
-        cout << execution_time * 1000 << endl;
+        cout << i << " " << execution_time * 1000 << endl;
     }
 
     return 0;
