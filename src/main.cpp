@@ -57,12 +57,12 @@ void run(int K) {
 
             freqTable[inputWord] = aux;
 
-            // BinaryTree binaryTree(file);
-            AvlTree avlTree(file);
+            BinaryTree binaryTree(file);
+            // AvlTree avlTree(file);
 
             for (auto e : elements) {
-                // binaryTree.push(e);
-                avlTree.push(e);
+                binaryTree.push(e);
+                // avlTree.push(e);
             }
 
             file << "Palavra: " << inputWord << endl << endl;
@@ -71,13 +71,13 @@ void run(int K) {
             // createHuffmanTree(elements, file);
             // file << endl;
 
-            // file << "Binária: ";
-            // binaryTree.showPreOrder();
-            // file << endl;
-
-            file << "AVL: ";
-            avlTree.showPreOrder();
+            file << "Binária: ";
+            binaryTree.showPreOrder();
             file << endl;
+
+            // file << "AVL: ";
+            // avlTree.showPreOrder();
+            // file << endl;
 
             file << endl;
         }
@@ -87,13 +87,13 @@ void run(int K) {
 }
 
 int main() {
-    for (int i = 1; i < 1000; i+=10) {
+    for (int i = 0; i < 1; i+=10) {
         clock_t startExe, endExe;
         double execution_time;
 
         startExe = clock();
 
-        run(i);
+        run(1000);
 
         endExe = clock();
         execution_time = ((double)(endExe - startExe)) / CLOCKS_PER_SEC;
