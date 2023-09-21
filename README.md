@@ -16,7 +16,7 @@ estrutura da árvore binária como base. Além disso iremos discutir 2 possibili
 
 O programa inicialmente irá buscar todos os textos que serão analisados. Em cada texto é contado a frequencia de todas as palavras, utilizando uma estrutura de hash. Optamos o uso do unordered_map, da biblioteca padrão, devido a confiabilidade em sua implementação.
 
-Contablizadas as frenquencias percorres as palavras de entrada, essas foram anteriormentes lidas e salvas em um vetor. Para cada palavra criamos uma heap naquela texto, omitindo a palavra atual. O objetivo é conseguir separar as Top K palavras mais frequentes daquele texto.
+Contablizadas as frenquencias percorres as palavras de entrada, essas foram anteriormentes lidas e salvas em um vetor. Para cada palavra criamos uma heap naquela texto, omitindo a palavra atual. O objetivo é conseguir separar as Top K palavras mais frequentes daquele texto. Esse parte da implementação foi desenvolvida em um trbalho anterior e reutilizada neste, assim os detalhes dessa etapa estão descritos no repositório [Top K Elemetos](https://github.com/tinicius/Aquecimento-AEDS-II).
 
 Tendo as palavras mais frequentes inserimos elas nas estruturas de arvores. Por fim, percorres as arvores exibindo todos os elementos. Para o exibir os nós da árvore optamos por implementar o caminhamento em in-ordem. Esse processo consiste em exibir toda a subarvore esquerda de um nó, o valor do próprio nó e a subarvore direita, estritamente nessa ordem. Ao fim, teremos todos os valores em ordem crescente.
 
